@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     private float Move;
+    
 
     private Rigidbody2D rb;
     // Start is called before the first frame update
@@ -21,4 +22,5 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(Move * speed, rb.velocity.y); 
     }
+
 }
