@@ -5,14 +5,16 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public float jump;
+
     private float Move;
     
+    public Rigidbody2D rb;
 
-    private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
@@ -20,7 +22,11 @@ public class PlayerController : MonoBehaviour
     {
         Move = Input.GetAxis("Horizontal");
 
-        rb.velocity = new Vector2(Move * speed, rb.velocity.y); 
+        rb.velocity = new Vector2(speed * Move, rb.velocity.y);
+        
+        if (Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, jump));
+        }
     }
-
 }
