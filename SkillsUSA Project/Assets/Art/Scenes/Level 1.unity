@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 10255295}
   - component: {fileID: 10255294}
   - component: {fileID: 10255293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0100_steampunk_rust_side_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 261631537}
   - component: {fileID: 261631540}
   - component: {fileID: 261631539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0009_fantasy_button_square_topright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 321167942}
   - component: {fileID: 321167941}
   - component: {fileID: 321167940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0046_pipe_gold (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 444604580}
   - component: {fileID: 444604583}
   - component: {fileID: 444604582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0100_steampunk_rust_side_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f18e29bb1c06c6d42995d8f1dc9545ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -851,7 +851,7 @@ GameObject:
   - component: {fileID: 490036420}
   - component: {fileID: 490036423}
   - component: {fileID: 490036422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,7 +1142,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15.050657
+  orthographic size: 15.899981
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1337,7 +1337,7 @@ GameObject:
   - component: {fileID: 692456640}
   - component: {fileID: 692456642}
   - component: {fileID: 692456643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0015_fantasy_button_square_pressed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1579,7 +1579,7 @@ GameObject:
   - component: {fileID: 759242034}
   - component: {fileID: 759242037}
   - component: {fileID: 759242036}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1806,11 +1806,12 @@ Transform:
   m_GameObject: {fileID: 797894663}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.51, y: 3.9008, z: 0}
+  m_LocalPosition: {x: -13.18, y: 4.26, z: 0}
   m_LocalScale: {x: 1.9535329, y: 1.6149435, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1501471613}
+  - {fileID: 1228058415}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &797894666
@@ -1828,7 +1829,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1837,7 +1838,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &797894667
@@ -1849,7 +1850,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 797894663}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 086f7f3be815e4b5193eda53fd3745aa, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1872,8 +1873,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: 0.035370298, y: -0.29950154}
+  m_Size: {x: 0.6180013, y: 1.4009962}
   m_Direction: 0
 --- !u!114 &797894668
 MonoBehaviour:
@@ -1887,7 +1888,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60f89ac9c9f1d4a47b0853eab0e655d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  rb: {fileID: 797894666}
+  groundCheck: {fileID: 1228058415}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &828558314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,7 +1990,7 @@ GameObject:
   - component: {fileID: 884871848}
   - component: {fileID: 884871847}
   - component: {fileID: 884871846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0015_fantasy_button_square_pressed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2104,7 +2109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: da7a339cd771f174eb3ef733bbe97323, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2143,7 +2148,7 @@ GameObject:
   - component: {fileID: 904573714}
   - component: {fileID: 904573717}
   - component: {fileID: 904573716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2375,6 +2380,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228058414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228058415}
+  m_Layer: 0
+  m_Name: Ground Check
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1228058415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228058414}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02, y: -1.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 797894665}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246484061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,7 +2507,7 @@ GameObject:
   - component: {fileID: 1257022347}
   - component: {fileID: 1257022346}
   - component: {fileID: 1257022345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0046_pipe_gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2590,7 +2626,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3ddc7a70968c4104c8815cca3c4c93ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2713,7 +2749,7 @@ GameObject:
   - component: {fileID: 1368801231}
   - component: {fileID: 1368801234}
   - component: {fileID: 1368801233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0100_steampunk_rust_side_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2760,7 +2796,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f18e29bb1c06c6d42995d8f1dc9545ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2873,7 +2909,7 @@ GameObject:
   - component: {fileID: 1496624282}
   - component: {fileID: 1496624284}
   - component: {fileID: 1496624285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0009_fantasy_button_square_topright (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3135,7 +3171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514175039}
   - component: {fileID: 1514175038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0046_pipe_gold (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3182,7 +3218,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3ddc7a70968c4104c8815cca3c4c93ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3287,8 +3323,8 @@ Transform:
   m_GameObject: {fileID: 1543696832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0643, y: -0.03, z: 0}
-  m_LocalScale: {x: 9.288596, y: 9.305792, z: 1}
+  m_LocalPosition: {x: 0.1239, y: -0.03, z: 0}
+  m_LocalScale: {x: 9.223601, y: 9.82764, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3305,7 +3341,7 @@ GameObject:
   - component: {fileID: 1814094589}
   - component: {fileID: 1814094588}
   - component: {fileID: 1814094587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0015_fantasy_button_square_pressed (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3424,7 +3460,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: da7a339cd771f174eb3ef733bbe97323, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3463,7 +3499,7 @@ GameObject:
   - component: {fileID: 1819031275}
   - component: {fileID: 1819031274}
   - component: {fileID: 1819031273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0015_fantasy_button_square_pressed (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3618,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: da7a339cd771f174eb3ef733bbe97323, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3704,7 +3740,7 @@ GameObject:
   - component: {fileID: 2075339701}
   - component: {fileID: 2075339700}
   - component: {fileID: 2075339702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0099_steampunk_rust_side_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3835,7 +3871,7 @@ GameObject:
   - component: {fileID: 2143617188}
   - component: {fileID: 2143617187}
   - component: {fileID: 2143617186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UI_Pack__0100_steampunk_rust_side_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
