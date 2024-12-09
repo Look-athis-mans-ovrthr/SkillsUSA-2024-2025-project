@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 10255294}
   - component: {fileID: 10255293}
   m_Layer: 6
-  m_Name: UI_Pack__0100_steampunk_rust_side_1 (1)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,12 +274,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10255292}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.0014, y: 7.4428, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0114002, y: -1.1572003, z: 0}
   m_LocalScale: {x: 3.9324303, y: 1.3777137, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1246484063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &261631536
 GameObject:
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 261631540}
   - component: {fileID: 261631539}
   m_Layer: 6
-  m_Name: UI_Pack__0009_fantasy_button_square_topright
+  m_Name: Blocks 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -364,7 +364,12 @@ Transform:
   m_LocalPosition: {x: -26.11, y: -12.28, z: 0}
   m_LocalScale: {x: 2.5816116, y: 2.5911145, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 692456641}
+  - {fileID: 1496624283}
+  - {fileID: 884871849}
+  - {fileID: 1814094590}
+  - {fileID: 1819031276}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &261631539
@@ -452,7 +457,7 @@ GameObject:
   - component: {fileID: 321167941}
   - component: {fileID: 321167940}
   m_Layer: 6
-  m_Name: UI_Pack__0046_pipe_gold (1)
+  m_Name: P 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -591,11 +596,11 @@ Transform:
   m_GameObject: {fileID: 321167939}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00938008, y: -0.014572411, z: -0.0001367109, w: 0.99984986}
-  m_LocalPosition: {x: 21.807, y: -6.0383, z: -0.0846}
-  m_LocalScale: {x: 1.9616792, y: 2.457144, z: 1}
+  m_LocalPosition: {x: 0.02288843, y: 2.1248453, z: -0.0846}
+  m_LocalScale: {x: 1.1008921, y: 1.0458227, z: 0.9988617}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1257022348}
   m_LocalEulerAnglesHint: {x: -1.075, y: -1.67, z: 0}
 --- !u!1 &362392560
 GameObject:
@@ -694,7 +699,7 @@ GameObject:
   - component: {fileID: 444604583}
   - component: {fileID: 444604582}
   m_Layer: 6
-  m_Name: UI_Pack__0100_steampunk_rust_side_1 (1)
+  m_Name: P/G 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -761,11 +766,11 @@ Transform:
   m_GameObject: {fileID: 444604579}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5007346, y: 1.8573207, z: 0}
-  m_LocalScale: {x: 0.606792, y: 0.88867635, z: 1}
+  m_LocalPosition: {x: 0.6920572, y: 5.5258517, z: 0}
+  m_LocalScale: {x: 0.05285729, y: 0.41587234, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1368801232}
+  m_Father: {fileID: 2075339701}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &444604582
 Rigidbody2D:
@@ -1338,7 +1343,7 @@ GameObject:
   - component: {fileID: 692456642}
   - component: {fileID: 692456643}
   m_Layer: 6
-  m_Name: UI_Pack__0015_fantasy_button_square_pressed
+  m_Name: B 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1404,12 +1409,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692456639}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.19, y: -9.4, z: 0}
-  m_LocalScale: {x: 1.2874433, y: 1.2773439, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1310765, y: 1.1114908, z: 0}
+  m_LocalScale: {x: 0.49869752, y: 0.4929708, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 261631538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &692456642
 Rigidbody2D:
@@ -1542,7 +1547,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: cbae788907e278142bbfd8251231a959, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1560,12 +1565,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738986110}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.009, y: 8.3959, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.019, y: -0.20410061, z: 0}
   m_LocalScale: {x: 0.93368477, y: 0.77923673, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1246484063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &759242033
 GameObject:
@@ -1991,7 +1996,7 @@ GameObject:
   - component: {fileID: 884871847}
   - component: {fileID: 884871846}
   m_Layer: 6
-  m_Name: UI_Pack__0015_fantasy_button_square_pressed (1)
+  m_Name: B 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2129,12 +2134,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884871845}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.06, y: -8.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.820951, y: 1.4395348, z: 0}
+  m_LocalScale: {x: 0.38735494, y: 0.3859343, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 261631538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904573713
 GameObject:
@@ -2355,7 +2360,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: cbae788907e278142bbfd8251231a959, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2373,12 +2378,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133584769}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.9845, y: 9.33, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.99450016, y: 0.72999954, z: 0}
   m_LocalScale: {x: 0.8342175, y: 0.1712, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1246484063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228058414
 GameObject:
@@ -2422,7 +2427,7 @@ GameObject:
   - component: {fileID: 1246484063}
   - component: {fileID: 1246484062}
   m_Layer: 0
-  m_Name: finish arches
+  m_Name: Finish/Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2492,7 +2497,11 @@ Transform:
   m_LocalPosition: {x: 7.99, y: 8.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1823826480}
+  - {fileID: 738986112}
+  - {fileID: 1133584771}
+  - {fileID: 10255296}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1257022344
@@ -2508,7 +2517,7 @@ GameObject:
   - component: {fileID: 1257022346}
   - component: {fileID: 1257022345}
   m_Layer: 6
-  m_Name: UI_Pack__0046_pipe_gold
+  m_Name: Pipes 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2650,7 +2659,9 @@ Transform:
   m_LocalPosition: {x: 21.7662, y: -11.0316, z: 0}
   m_LocalScale: {x: 1.7825643, y: 2.3499594, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 321167943}
+  - {fileID: 1514175039}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1348592771
@@ -2750,7 +2761,7 @@ GameObject:
   - component: {fileID: 1368801234}
   - component: {fileID: 1368801233}
   m_Layer: 6
-  m_Name: UI_Pack__0100_steampunk_rust_side_1
+  m_Name: P/G 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2816,14 +2827,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368801230}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.41, y: 1.98, z: 0}
-  m_LocalScale: {x: 2.5854, y: 1.5506207, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8227854, y: 4.6566844, z: 0}
+  m_LocalScale: {x: 0.08710942, y: 0.4679683, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 444604581}
-  - {fileID: 2143617189}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 2075339701}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1368801233
 Rigidbody2D:
@@ -2910,7 +2919,7 @@ GameObject:
   - component: {fileID: 1496624284}
   - component: {fileID: 1496624285}
   m_Layer: 6
-  m_Name: UI_Pack__0009_fantasy_button_square_topright (1)
+  m_Name: B 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2976,12 +2985,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496624281}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.14, y: -5.53, z: 0}
-  m_LocalScale: {x: 2.704104, y: 3.1068645, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.011620175, y: 2.6050563, z: 0}
+  m_LocalScale: {x: 1.047448, y: 1.1990455, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 261631538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1496624284
 BoxCollider2D:
@@ -3172,7 +3181,7 @@ GameObject:
   - component: {fileID: 1514175039}
   - component: {fileID: 1514175038}
   m_Layer: 6
-  m_Name: UI_Pack__0046_pipe_gold (2)
+  m_Name: P 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3238,12 +3247,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514175037}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.2588191, w: 0.9659258}
-  m_LocalPosition: {x: 21.5398, y: -1.9794, z: 0}
-  m_LocalScale: {x: 2.0086, y: 2.6145704, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.2588191, w: 0.9659258}
+  m_LocalPosition: {x: -0.12700719, y: 3.8520668, z: 0}
+  m_LocalScale: {x: 1.0437468, y: 1.1840758, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1257022348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
 --- !u!1 &1543696832
 GameObject:
@@ -3323,8 +3332,8 @@ Transform:
   m_GameObject: {fileID: 1543696832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1239, y: -0.03, z: 0}
-  m_LocalScale: {x: 9.223601, y: 9.82764, z: 1}
+  m_LocalPosition: {x: 0.0015, y: -0.0085, z: 0}
+  m_LocalScale: {x: 9.817016, y: 9.814856, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3342,7 +3351,7 @@ GameObject:
   - component: {fileID: 1814094588}
   - component: {fileID: 1814094587}
   m_Layer: 6
-  m_Name: UI_Pack__0015_fantasy_button_square_pressed (3)
+  m_Name: B 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3480,12 +3489,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814094586}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.32, y: -3.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.010756, y: 3.1916764, z: 0}
+  m_LocalScale: {x: 0.38735494, y: 0.3859343, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 261631538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819031272
 GameObject:
@@ -3500,7 +3509,7 @@ GameObject:
   - component: {fileID: 1819031274}
   - component: {fileID: 1819031273}
   m_Layer: 6
-  m_Name: UI_Pack__0015_fantasy_button_square_pressed (2)
+  m_Name: B 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3638,12 +3647,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819031272}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.99, y: -3.88, z: 0}
-  m_LocalScale: {x: 1.2015351, y: 1.1675162, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9832577, y: 3.241848, z: 0}
+  m_LocalScale: {x: 0.46542054, y: 0.45058456, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 261631538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1823826478
 GameObject:
@@ -3722,12 +3731,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823826478}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 9.988, y: 8.597, z: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 1.9980001, y: -0.0030002594, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1246484063}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2075339699
 GameObject:
@@ -3741,7 +3750,7 @@ GameObject:
   - component: {fileID: 2075339700}
   - component: {fileID: 2075339702}
   m_Layer: 6
-  m_Name: UI_Pack__0099_steampunk_rust_side_2
+  m_Name: Platforms/ Ground 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3808,10 +3817,13 @@ Transform:
   m_GameObject: {fileID: 2075339699}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0516, y: -13.45, z: 0}
-  m_LocalScale: {x: 28.156355, y: 3.3135161, z: 1}
+  m_LocalPosition: {x: -0.0102, y: -13.45, z: 0}
+  m_LocalScale: {x: 29.679914, y: 3.3135161, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1368801232}
+  - {fileID: 444604581}
+  - {fileID: 2143617189}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2075339702
@@ -3872,7 +3884,7 @@ GameObject:
   - component: {fileID: 2143617187}
   - component: {fileID: 2143617186}
   m_Layer: 6
-  m_Name: UI_Pack__0100_steampunk_rust_side_1 (2)
+  m_Name: P/G 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4011,11 +4023,11 @@ Transform:
   m_GameObject: {fileID: 2143617185}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4656148, y: 2.5731628, z: 0}
-  m_LocalScale: {x: 0.6598869, y: 1.1400203, z: 1}
+  m_LocalPosition: {x: 0.5208976, y: 5.8608427, z: 0}
+  m_LocalScale: {x: 0.05748236, y: 0.53349334, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1368801232}
+  m_Father: {fileID: 2075339701}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -4026,23 +4038,11 @@ SceneRoots:
   - {fileID: 797894665}
   - {fileID: 2075339701}
   - {fileID: 261631538}
-  - {fileID: 692456641}
-  - {fileID: 1496624283}
   - {fileID: 1348592773}
   - {fileID: 503779306}
   - {fileID: 1543696834}
   - {fileID: 904573715}
   - {fileID: 544347860}
-  - {fileID: 1819031276}
   - {fileID: 1257022348}
-  - {fileID: 321167943}
-  - {fileID: 884871849}
-  - {fileID: 1814094590}
-  - {fileID: 1514175039}
   - {fileID: 828558316}
-  - {fileID: 1368801232}
-  - {fileID: 10255296}
   - {fileID: 1246484063}
-  - {fileID: 1823826480}
-  - {fileID: 738986112}
-  - {fileID: 1133584771}
